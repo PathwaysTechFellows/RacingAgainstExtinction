@@ -14,11 +14,17 @@
 		3F1D2EF52891C513006F0F73 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D2EF42891C513006F0F73 /* ResultsViewController.swift */; };
 		3F3E8AC52891BCA300DC9F56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E8AC42891BCA300DC9F56 /* AppDelegate.swift */; };
 		3F3E8AC72891BCA300DC9F56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E8AC62891BCA300DC9F56 /* SceneDelegate.swift */; };
-		3F3E8AC92891BCA300DC9F56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E8AC82891BCA300DC9F56 /* ViewController.swift */; };
 		3F3E8ACC2891BCA300DC9F56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3E8ACA2891BCA300DC9F56 /* Main.storyboard */; };
 		3F3E8ACE2891BCA400DC9F56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3E8ACD2891BCA400DC9F56 /* Assets.xcassets */; };
 		3F3E8AD12891BCA400DC9F56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3E8ACF2891BCA400DC9F56 /* LaunchScreen.storyboard */; };
 		3FDB1B012892E07B00284665 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB1AFF2892E07B00284665 /* Info.storyboard */; };
+		3FDB1B052892E39D00284665 /* HomePageQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB1B042892E39D00284665 /* HomePageQuote.swift */; };
+		3FDB1B092893012700284665 /* AnimalInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB1B082893012700284665 /* AnimalInformation.storyboard */; };
+		3FDB1B0C2893013B00284665 /* AnimalList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB1B0A2893013B00284665 /* AnimalList.storyboard */; };
+		3FDB1B0E2893015100284665 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB1B0D2893015100284665 /* Home.storyboard */; };
+		3FDB1B112893016300284665 /* Graphs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB1B0F2893016300284665 /* Graphs.storyboard */; };
+		3FDB1B132893017900284665 /* QuizQuestions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB1B122893017900284665 /* QuizQuestions.storyboard */; };
+		3FDB1B162893018E00284665 /* QuizResults.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB1B142893018E00284665 /* QuizResults.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +53,6 @@
 		3F3E8AC12891BCA300DC9F56 /* RacingAgainstExtinction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RacingAgainstExtinction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3E8AC42891BCA300DC9F56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F3E8AC62891BCA300DC9F56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F3E8AC82891BCA300DC9F56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F3E8ACB2891BCA300DC9F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F3E8ACD2891BCA400DC9F56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3E8AD02891BCA400DC9F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +60,13 @@
 		3F3E8AD72891BCA400DC9F56 /* RacingAgainstExtinctionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RacingAgainstExtinctionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3E8AE12891BCA400DC9F56 /* RacingAgainstExtinctionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RacingAgainstExtinctionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDB1B002892E07B00284665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RacingAgainstExtinction/Base.lproj/Info.storyboard; sourceTree = "<group>"; };
+		3FDB1B042892E39D00284665 /* HomePageQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageQuote.swift; sourceTree = "<group>"; };
+		3FDB1B082893012700284665 /* AnimalInformation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnimalInformation.storyboard; sourceTree = "<group>"; };
+		3FDB1B0B2893013B00284665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RacingAgainstExtinction/Base.lproj/AnimalList.storyboard; sourceTree = "<group>"; };
+		3FDB1B0D2893015100284665 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		3FDB1B102893016300284665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RacingAgainstExtinction/Base.lproj/Graphs.storyboard; sourceTree = "<group>"; };
+		3FDB1B122893017900284665 /* QuizQuestions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QuizQuestions.storyboard; sourceTree = "<group>"; };
+		3FDB1B152893018E00284665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RacingAgainstExtinction/Base.lproj/QuizResults.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,12 @@
 		3F3E8AB82891BCA300DC9F56 = {
 			isa = PBXGroup;
 			children = (
+				3FDB1B142893018E00284665 /* QuizResults.storyboard */,
+				3FDB1B122893017900284665 /* QuizQuestions.storyboard */,
+				3FDB1B0F2893016300284665 /* Graphs.storyboard */,
+				3FDB1B0D2893015100284665 /* Home.storyboard */,
+				3FDB1B0A2893013B00284665 /* AnimalList.storyboard */,
+				3FDB1B082893012700284665 /* AnimalInformation.storyboard */,
 				3FDB1AFF2892E07B00284665 /* Info.storyboard */,
 				3F3E8AC32891BCA300DC9F56 /* RacingAgainstExtinction */,
 				3F3E8AC22891BCA300DC9F56 /* Products */,
@@ -106,9 +124,9 @@
 			children = (
 				3F3E8AC42891BCA300DC9F56 /* AppDelegate.swift */,
 				3F3E8AC62891BCA300DC9F56 /* SceneDelegate.swift */,
-				3F3E8ACA2891BCA300DC9F56 /* Main.storyboard */,
 				3F3E8ACF2891BCA400DC9F56 /* LaunchScreen.storyboard */,
-				3F3E8AC82891BCA300DC9F56 /* ViewController.swift */,
+				3F3E8ACA2891BCA300DC9F56 /* Main.storyboard */,
+				3FDB1B042892E39D00284665 /* HomePageQuote.swift */,
 				3F1D2EF42891C513006F0F73 /* ResultsViewController.swift */,
 				3F1D2EF22891C344006F0F73 /* DetailViewController.swift */,
 				3F1D2EF02891C317006F0F73 /* AnimalTableViewController.swift */,
@@ -224,9 +242,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDB1B0E2893015100284665 /* Home.storyboard in Resources */,
 				3F3E8AD12891BCA400DC9F56 /* LaunchScreen.storyboard in Resources */,
+				3FDB1B092893012700284665 /* AnimalInformation.storyboard in Resources */,
 				3F3E8ACE2891BCA400DC9F56 /* Assets.xcassets in Resources */,
+				3FDB1B162893018E00284665 /* QuizResults.storyboard in Resources */,
 				3FDB1B012892E07B00284665 /* Info.storyboard in Resources */,
+				3FDB1B112893016300284665 /* Graphs.storyboard in Resources */,
+				3FDB1B0C2893013B00284665 /* AnimalList.storyboard in Resources */,
+				3FDB1B132893017900284665 /* QuizQuestions.storyboard in Resources */,
 				3F3E8ACC2891BCA300DC9F56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,10 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3E8AC92891BCA300DC9F56 /* ViewController.swift in Sources */,
 				3F1D2EF12891C317006F0F73 /* AnimalTableViewController.swift in Sources */,
 				3F1D2EED2891C283006F0F73 /* QuizViewController.swift in Sources */,
 				3F3E8AC52891BCA300DC9F56 /* AppDelegate.swift in Sources */,
+				3FDB1B052892E39D00284665 /* HomePageQuote.swift in Sources */,
 				3F1D2EEF2891C2B9006F0F73 /* GraphViewController.swift in Sources */,
 				3F3E8AC72891BCA300DC9F56 /* SceneDelegate.swift in Sources */,
 				3F1D2EF32891C344006F0F73 /* DetailViewController.swift in Sources */,
@@ -315,6 +339,30 @@
 				3FDB1B002892E07B00284665 /* Base */,
 			);
 			name = Info.storyboard;
+			sourceTree = "<group>";
+		};
+		3FDB1B0A2893013B00284665 /* AnimalList.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDB1B0B2893013B00284665 /* Base */,
+			);
+			name = AnimalList.storyboard;
+			sourceTree = "<group>";
+		};
+		3FDB1B0F2893016300284665 /* Graphs.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDB1B102893016300284665 /* Base */,
+			);
+			name = Graphs.storyboard;
+			sourceTree = "<group>";
+		};
+		3FDB1B142893018E00284665 /* QuizResults.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDB1B152893018E00284665 /* Base */,
+			);
+			name = QuizResults.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
