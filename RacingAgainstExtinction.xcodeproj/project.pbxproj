@@ -17,9 +17,7 @@
 		3F3E8ACC2891BCA300DC9F56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3E8ACA2891BCA300DC9F56 /* Main.storyboard */; };
 		3F3E8ACE2891BCA400DC9F56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3E8ACD2891BCA400DC9F56 /* Assets.xcassets */; };
 		3F3E8AD12891BCA400DC9F56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3E8ACF2891BCA400DC9F56 /* LaunchScreen.storyboard */; };
-		3FDB1B012892E07B00284665 /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB1AFF2892E07B00284665 /* Info.storyboard */; };
 		3FDB1B052892E39D00284665 /* HomePageQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB1B042892E39D00284665 /* HomePageQuote.swift */; };
-		3FDB1B092893012700284665 /* AnimalInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB1B082893012700284665 /* AnimalInformation.storyboard */; };
 		3FDB1B0C2893013B00284665 /* AnimalList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB1B0A2893013B00284665 /* AnimalList.storyboard */; };
 		3FDB1B0E2893015100284665 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB1B0D2893015100284665 /* Home.storyboard */; };
 		3FDB1B112893016300284665 /* Graphs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDB1B0F2893016300284665 /* Graphs.storyboard */; };
@@ -59,9 +57,7 @@
 		3F3E8AD22891BCA400DC9F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F3E8AD72891BCA400DC9F56 /* RacingAgainstExtinctionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RacingAgainstExtinctionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3E8AE12891BCA400DC9F56 /* RacingAgainstExtinctionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RacingAgainstExtinctionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FDB1B002892E07B00284665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RacingAgainstExtinction/Base.lproj/Info.storyboard; sourceTree = "<group>"; };
 		3FDB1B042892E39D00284665 /* HomePageQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageQuote.swift; sourceTree = "<group>"; };
-		3FDB1B082893012700284665 /* AnimalInformation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnimalInformation.storyboard; sourceTree = "<group>"; };
 		3FDB1B0B2893013B00284665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RacingAgainstExtinction/Base.lproj/AnimalList.storyboard; sourceTree = "<group>"; };
 		3FDB1B0D2893015100284665 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		3FDB1B102893016300284665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RacingAgainstExtinction/Base.lproj/Graphs.storyboard; sourceTree = "<group>"; };
@@ -102,8 +98,6 @@
 				3FDB1B0F2893016300284665 /* Graphs.storyboard */,
 				3FDB1B0D2893015100284665 /* Home.storyboard */,
 				3FDB1B0A2893013B00284665 /* AnimalList.storyboard */,
-				3FDB1B082893012700284665 /* AnimalInformation.storyboard */,
-				3FDB1AFF2892E07B00284665 /* Info.storyboard */,
 				3F3E8AC32891BCA300DC9F56 /* RacingAgainstExtinction */,
 				3F3E8AC22891BCA300DC9F56 /* Products */,
 			);
@@ -244,10 +238,8 @@
 			files = (
 				3FDB1B0E2893015100284665 /* Home.storyboard in Resources */,
 				3F3E8AD12891BCA400DC9F56 /* LaunchScreen.storyboard in Resources */,
-				3FDB1B092893012700284665 /* AnimalInformation.storyboard in Resources */,
 				3F3E8ACE2891BCA400DC9F56 /* Assets.xcassets in Resources */,
 				3FDB1B162893018E00284665 /* QuizResults.storyboard in Resources */,
-				3FDB1B012892E07B00284665 /* Info.storyboard in Resources */,
 				3FDB1B112893016300284665 /* Graphs.storyboard in Resources */,
 				3FDB1B0C2893013B00284665 /* AnimalList.storyboard in Resources */,
 				3FDB1B132893017900284665 /* QuizQuestions.storyboard in Resources */,
@@ -331,14 +323,6 @@
 				3F3E8AD02891BCA400DC9F56 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		3FDB1AFF2892E07B00284665 /* Info.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FDB1B002892E07B00284665 /* Base */,
-			);
-			name = Info.storyboard;
 			sourceTree = "<group>";
 		};
 		3FDB1B0A2893013B00284665 /* AnimalList.storyboard */ = {

@@ -63,26 +63,6 @@
             </objects>
             <point key="canvasLocation" x="2466.666666666667" y="67.633928571428569"/>
         </scene>
-        <!--Info-->
-        <scene sceneID="Sim-HY-rpb">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Info" id="c4H-iV-tA4" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="PXQ-7d-2QZ"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Iqy-OL-OnA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2467" y="1543"/>
-        </scene>
-        <!--AnimalInformation-->
-        <scene sceneID="lJ1-jt-xPW">
-            <objects>
-                <viewControllerPlaceholder storyboardName="AnimalInformation" id="uaf-EX-jfn" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="nOg-ss-046"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fI4-M9-BoV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3376.811594202899" y="841.74107142857144"/>
-        </scene>
         <!--AnimalList-->
         <scene sceneID="p48-SO-5w9">
             <objects>
